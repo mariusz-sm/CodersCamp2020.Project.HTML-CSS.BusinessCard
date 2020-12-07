@@ -153,6 +153,63 @@ header {
 	opacity: 0.8;
 }
 
+.section-skills-name {
+    width: 90%;
+    color: rgba(255, 255, 255, 0.61);
+    margin: auto;
+    padding-bottom: 15px;
+}
+
+.section-skills-item, .section-skills-line {
+    height: 30px;
+    border-radius: 10px;
+    
+}
+
+.section-skills-item {
+    width: 90%;
+    background-color: rgba(255, 255, 255, 0.61);
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+.section-skills-line {
+    background-color: rgba(87, 26, 26, 0.61);
+}
+
+.section-skills-html {
+    width: 50%;
+}
+
+.section-skills-css {
+    width: 60%;
+}
+
+.section-skills-js {
+    width: 40%;
+}
+
+.section-skills-python {
+    width: 40%;
+}
+
+.section-skills-git {
+    width: 70%;
+}
+
+.section-skills-testing {
+    width: 80%;
+}
+
+.section-skills-robot {
+    width: 80%;
+}
+
+.section-skills-jenkins {
+    width: 40%;
+}
+
+
 @media only screen and (min-width: 1600px) {
     .nav-wrapper, .header-wrapper, .section-wrapper {
         width: var(--xlarge-width);
