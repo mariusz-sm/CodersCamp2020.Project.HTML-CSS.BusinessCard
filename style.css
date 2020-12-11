@@ -28,21 +28,31 @@ ul {
     text-transform: uppercase;
 }
 
-a {
+a span {
     color: var(--nav-bar-text-color);
     font-size: var(--nav-bar-text-size);
+    transition: all 0.3s ease-in-out;
 }
 
-a:hover {
-    transition: transform 0.3s ease-in-out;
-    transform: scale(1.1);
+a:hover span { 
     color: var(--nav-bar-text-color-hover);
+}
+
+li {
+    transition: all 0.3s ease-in-out;
+}
+
+li:hover {
+    transform: scale(1.1);
+}
+
+a .nav-icon {
+    display: none;
 }
 
 nav {
     position: fixed;
     width: 100%;
-    
 }
 
 .nav-wrapper {
@@ -347,6 +357,41 @@ div.section-blog-link p {
 
 @media only screen and (max-width: 576px) {
     nav {
-        display: none;
+       bottom: 0;
+       box-shadow: 0 0 0 3px rgba(148, 146, 146, 0.425);
+    }
+
+    .nav-wrapper {
+        height: 100px;
+    }
+
+    .nav-container li {
+        height: 100%;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+   .nav-container a {
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       justify-content: space-around;
+       height: 100%;
+   }
+
+    a .nav-icon {
+        display: block;
+        font-size: 50px;
+    }
+
+   header {
+       margin-top: 0;
+       width: 100%;
+   }
+
+   .text-effect {
+        font-size: 60px;
     }
 }
