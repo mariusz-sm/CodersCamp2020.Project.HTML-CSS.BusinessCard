@@ -9,20 +9,38 @@
     <meta name="description" content="CodersCamp to darmowy, otwarty kurs programowania webowego we Wrocławiu. Sprawdź, czego nauczysz się na CodersCamp i spróbuj swoich sił w branży IT!">
     <link rel="stylesheet" href="style.css" type="text/css" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Castoro">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 </head>
 
 <body>
-
     <main>
         <nav>
             <div class="nav-wrapper">
                 <ul class="nav-container">
-                    <li>About me</li>
-                    <li>Work</li>
-                    <li>Skills</li>
-                    <li>Experience</li>
-                    <li>Blog</li>
-                    <li>Contact</li>
+                    <li>
+                        <a href="#about_me">
+                            <i class="material-icons md-48 nav-icon">perm_identity</i>    
+                            <span>About me</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#work">
+                            <i class="material-icons md-48 nav-icon">work_outline</i>    
+                            <span>Work</span>
+                        </a></li>
+                    <li>
+                        <a href="#skills">
+                            <i class="material-icons md-48 nav-icon">psychology</i>    
+                            <span>Skills</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#blog">
+                            <i class="material-icons md-48 nav-icon">chat_bubble_outline</i>    
+                            <span>Blog</span>
+                        </a>
+                    </li>
                 </ul>
             </div>
         </nav>
@@ -77,14 +95,114 @@
                     <div class="text-effect">&nbsp</div>
                 </div>
             </div>
+            <div class="icons-wrapper">
+                <a href="https://github.com/mariusz-sm" class="fa fa-github"></a>
+                <a href="#" class="fa fa-facebook"></a>
+                <a href="#" class="fa fa-linkedin"></a>
+                <a href="#" class="fa fa-instagram"></a>
+                <a href="#" class="fa fa-twitter"></a>
+            </div>
         </header>
         <section>
-            <div class="section-about">
+            <div class="section-wrapper">
                 <div class="section-header">
                     <div class="section-header-line"></div>
-                    <div class="section-header-title ">About me</div>
+                    <div id="about_me" class="section-header-title ">About me</div>
                 </div>
-                <div class="section-content">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy</div>
+                <div class="section-content section-about-content">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy</div>
+                <div class="section-footer"></div>
+            </div>
+            <div class="section-wrapper">
+                <div class="section-header">
+                    <div class="section-header-line"></div>
+                    <div id="work" class="section-header-title ">Work</div>
+                </div>
+                <div class="section-content section-work-content">
+                    <div class="section-work-item">
+                        <img class="section-work-img" src="./img/work/antena.jpg" alt="antena">
+                    </div>
+                    <div class="section-work-item">
+                        <img class="section-work-img" src="./img/work/code.jpg" alt="antena">
+                    </div>
+                    <div class="section-work-item">
+                        <img class="section-work-img" src="./img/work/electricity.jpg" alt="antena">
+                    </div>
+                    <div class="section-work-item">
+                        <img class="section-work-img" src="./img/work/math.jpg" alt="antena">
+                    </div>
+                    <div class="section-work-item">
+                        <img class="section-work-img" src="./img/work/mountains.jpg" alt="antena">
+                    </div>
+                    <div class="section-work-item">
+                        <img class="section-work-img" src="./img/work/ocean.jpg" alt="antena">
+                    </div>
+                </div>
+                <div class="section-footer"></div>
+            </div>
+            <div class="section-wrapper">
+                <div class="section-header">
+                    <div class="section-header-line"></div>
+                    <div id="skills" class="section-header-title ">Skills</div>
+                </div>
+                <div class="section-content section-skills-content">
+                    <div class="section-skills-name">HTML</div>
+                    <div class="section-skills-item">
+                        <div class="section-skills-line section-skills-html"></div>
+                    </div>
+                    <div class="section-skills-name">CSS</div>
+                    <div class="section-skills-item">
+                        <div class="section-skills-line section-skills-css"></div>
+                    </div>
+                    <div class="section-skills-name">Java Script</div>
+                    <div class="section-skills-item">
+                        <div class="section-skills-line section-skills-js"></div>
+                    </div>
+                    <div class="section-skills-name">Python</div>
+                    <div class="section-skills-item">
+                        <div class="section-skills-line section-skills-python"></div>
+                    </div>
+                    <div class="section-skills-name">Git</div>
+                    <div class="section-skills-item">
+                        <div class="section-skills-line section-skills-git"></div>
+                    </div>
+                    <div class="section-skills-name">Software Testing</div>
+                    <div class="section-skills-item">
+                        <div class="section-skills-line section-skills-testing"></div>
+                    </div>
+                    <div class="section-skills-name">Robot Framework</div>
+                    <div class="section-skills-item">
+                        <div class="section-skills-line section-skills-robot"></div>
+                    </div>
+                    <div class="section-skills-name">Jenkins</div>
+                    <div class="section-skills-item">
+                        <div class="section-skills-line section-skills-jenkins"></div>
+                    </div>
+                </div>
+                <div class="section-footer"></div>
+            </div>
+            <div class="section-wrapper">
+                <div class="section-header">
+                    <div class="section-header-line"></div>
+                    <div id="blog" class="section-header-title ">Blog</div>
+                </div>
+                <div class="section-content section-about-content">My latest blog posts</div>
+                <div class="section-content section-blog-content">
+                    <div class="section-blog-item">
+                        <img class="section-blog-img" src="./img/blog/bike.jpg" alt="antena">
+                        <div class="section-blog-link"><p>Read More</p></div>
+                        <p class="section-blog-img-title">Product review</p>
+                    </div>
+                    <div class="section-blog-item">
+                        <img class="section-blog-img" src="./img/blog/mountain_trip.jpg" alt="antena">
+                        <div class="section-blog-link"><p>Read More</p></div>
+                        <p class="section-blog-img-title">Mountain trip</p>
+                    </div>
+                    <div class="section-blog-item">
+                        <img class="section-blog-img" src="./img/blog/training.jpg" alt="antena">
+                        <div class="section-blog-link"><p>Read More</p></div>
+                        <p class="section-blog-img-title">Training</p>
+                    </div>
+                </div>
                 <div class="section-footer"></div>
             </div>
         </section>
