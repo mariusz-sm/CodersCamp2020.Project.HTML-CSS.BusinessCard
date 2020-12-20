@@ -7,6 +7,7 @@
     font-weight: 700;
     scroll-behavior: smooth;
     background-color: var(--web-background-color);
+    /* overflow-x: hidden; */
     
 }
 
@@ -180,6 +181,7 @@ header {
 
 .section-content {
     margin: 3em 0.5em 3em;
+    box-sizing: border-box;
 }
 
 .section-about-content {
