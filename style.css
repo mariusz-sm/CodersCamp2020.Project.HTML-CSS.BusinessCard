@@ -313,9 +313,12 @@ div.section-blog-link p {
 }
 
 .section-contact-content {
-    display: grid;
+    /* display: grid;
     grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
-    gap: 1em;
+    gap: 1em; */
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
     
 }
 
@@ -323,12 +326,17 @@ div.section-blog-link p {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin: 20px;
 }
 
 .section-contact-text {
-    margin-top: 5px;
+    margin-top: 20px;
     color:  rgba(255, 255, 255, 0.61);
 }
+
+a.fa-contact {
+    margin-left: 0px;
+  }
 
 .fa-phone {
     background: #55ee6e;
@@ -380,6 +388,10 @@ div.section-blog-link p {
 
     .text-effect {
         font-size: calc(100vw / 10);
+    }
+
+    .section-contact-text {
+        display: none;
     }
 }
 
