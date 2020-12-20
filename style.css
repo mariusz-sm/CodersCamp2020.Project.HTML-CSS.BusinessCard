@@ -312,6 +312,34 @@ div.section-blog-link p {
     color:  rgba(255, 255, 255, 0.61);
 }
 
+.section-contact-content {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+    gap: 1em;
+    
+}
+
+.section-contact-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section-contact-text {
+    margin-top: 5px;
+    color:  rgba(255, 255, 255, 0.61);
+}
+
+.fa-phone {
+    background: #55ee6e;
+    color: white;
+}
+
+.fa-mail-reply {
+    background: #55e9ee;
+    color: white;
+}
+
 
 @media only screen and (min-width: 1600px) {
     .nav-wrapper, .header-wrapper, .section-wrapper, .icons-wrapper {
