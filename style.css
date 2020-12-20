@@ -345,6 +345,46 @@ a.fa-contact {
     color: white;
 }
 
+input[type=text], textarea {
+    width: 100%;
+    padding: 12px; 
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    font-size: 24px;
+    color: rgba(255, 255, 255, 0.61);
+  }
+  
+  input[type=submit] {
+    background-color: #92549e;
+    color:  rgba(255, 255, 255, 0.61);
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #81b352;
+  }
+  
+  label {
+    color:  rgba(255, 255, 255, 0.61);
+  }
+ 
+  .form-wrapper {
+    padding: 30px; 
+  }
+
+  form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
 
 @media only screen and (min-width: 1600px) {
     .nav-wrapper, .header-wrapper, .section-wrapper, .icons-wrapper {
