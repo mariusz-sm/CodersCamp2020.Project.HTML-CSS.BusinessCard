@@ -53,6 +53,7 @@ a .nav-icon {
 nav {
     position: fixed;
     width: 100%;
+    z-index: 1;
 }
 
 .nav-wrapper {
@@ -179,6 +180,7 @@ header {
 
 .section-content {
     margin: 3em 0.5em 3em;
+    box-sizing: border-box;
 }
 
 .section-about-content {
@@ -211,11 +213,11 @@ header {
     width: 90%;
     color: rgba(255, 255, 255, 0.61);
     margin: auto;
-    padding-bottom: 15px;
+    padding-bottom: 10px;
 }
 
 .section-skills-item, .section-skills-line {
-    height: 30px;
+    height: 25px;
     border-radius: 10px;
     
 }
@@ -224,7 +226,7 @@ header {
     width: 90%;
     background-color: rgba(255, 255, 255, 0.61);
     margin: auto;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
 }
 
 .section-skills-line {
@@ -470,5 +472,17 @@ input[type=text], textarea {
 
    .text-effect {
         font-size: 60px;
+    }
+
+    .section-skills-item {
+        margin-bottom: 20px;
+    }
+
+    .section-skills-name {
+        padding-bottom: 5px;
+    } 
+
+    .section-skills-item, .section-skills-line {
+        height: 20px;
     }
 }
