@@ -471,6 +471,7 @@ input[type=text], textarea {
     a .nav-icon {
         display: block;
         font-size: 40px;
+        color: rgba(163, 233, 230, 0.548);
     }
 
    header {
@@ -514,8 +515,8 @@ input[type=text], textarea {
     }
 
     a.fa {
-        font-size: 10px;
-        width: 10px;
+        font-size: 15px;
+        width: 15px;
         margin-left: 10px;
     }
 
