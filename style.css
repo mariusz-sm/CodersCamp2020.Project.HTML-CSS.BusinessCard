@@ -313,9 +313,6 @@ div.section-blog-link p {
 }
 
 .section-contact-content {
-    /* display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
-    gap: 1em; */
     display: flex;
     flex-flow: row wrap;
     justify-content: space-around;
