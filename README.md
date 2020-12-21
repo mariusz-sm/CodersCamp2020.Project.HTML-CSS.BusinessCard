@@ -1,15 +1,40 @@
-# CodersCamp 2020 - Projekt HTML & CSS
-**CodersCamp (coderscamp.edu.pl) - Największy otwarty kurs programowania webowego** 
+# Projekt — Wizytówka / Portfolio
 
-Gratulacje! 
-Skoro czytacie ten tekst, oznacza to, że dowiedliście swoich umiejętności ze znajomości HTML & CSS. 
-Zostaliście przydzieleni do zespołu, który będzie się uczył programowania i wykonywał prawdziwe aplikacje webowe.
-Teraz stajecie przed pierwszym większym wyzwaniem. 
-Technologie, o których się uczyliście, trzeba zastosować w praktyce.
-To pierwszy i ostatni na CodersCamp projekt, który będziecie robić w pojedynkę.
-Jednakże już macie cały zespół i mentora, który z pewnością będzie Was wspierał.
+Projekt zawiera szablon strony internetowej, która przedstawia wizytówkę/portfolio.
+#### Link do strony: https://mariusz-sm.github.io/CodersCamp2020.Project.HTML-CSS.BusinessCard/
 
-## Projekt HTML & CSS — Wizytówka / Portfolio
+## Technologie
+W projekcie zostały użyte następujące technologie:
+- HTML
+- CSS
+
+## Zakres funkcjonalności
+
+### Responsive Web Design
+
+- Wygląd strony na PC
+![./.github/images/responsive_web_pc.png](./.github/images/responsive_web_pc.png)
+
+- Wygląd storny na urządzeniu mobilnym
+![./.github/images/responsive_web_phone.png](./.github/images/responsive_web_phone.png)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ### Zasady wykonywania projektu (wspólne dla wszystkich grup i mentorów): 
 
