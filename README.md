@@ -12,6 +12,8 @@ W projekcie zostały użyte następujące technologie:
 
 ### Responsive Web Design
 
+Strona dopasowuje się do urządzenia na którym jest wyświetlana, tak aby była ciągle czytelna. Poza tym przy małych rozdzielczościach używany jest pasek nawygacyjny dostosowany do takich urządzeń.
+
 - Wygląd strony na PC
 
 ![./.github/images/responsive_web_pc.png](./.github/images/responsive_web_pc.png)
@@ -27,8 +29,17 @@ W projekcie zostały użyte następujące technologie:
 
 ### Animacja keyframes
 
+Do nagłówka została dodana animacja keyframes. Litery zmieniają swoje położenie oraz przeźroczystość. 
+
 ![./.github/images/animation.png](./.github/images/animation.png)
 
+
+### Ikony i czcionki
+
+Podczas tworzenia strony zostały wykorzystane ikony i czcionki znajdujące się w poniższych lokalizacjach:
+- https://fonts.googleapis.com/css?family=Castoro
+- https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css
+- https://fonts.googleapis.com/icon?family=Material+Icons
 
 
 
