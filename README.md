@@ -13,12 +13,17 @@ W projekcie zostały użyte następujące technologie:
 ### Responsive Web Design
 
 - Wygląd strony na PC
+
 ![./.github/images/responsive_web_pc.png](./.github/images/responsive_web_pc.png)
 
 - Wygląd storny na urządzeniu mobilnym
+
 ![./.github/images/responsive_web_phone.png](./.github/images/responsive_web_phone.png)
 
 
+### Formularz
+
+![./.github/images/form.png](./.github/images/form.png)
 
 
 
