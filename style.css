@@ -10,14 +10,15 @@
     
 }
 
+
 :root {
     --web-background-color:  rgb(31, 29, 29);
     --nav-bar-text-color: aliceblue;
     --nav-bar-text-color-hover: #81EBFF;
     --nav-bar-text-size: 16px;
-    --xlarge-width: 1600px;
-    --large-width: 1199px;
-    --small-width: 576px;
+    --xlarge-width: 1580px;
+    --large-width: 1179px;
+    --small-width: 566px;
 
 }
 
@@ -219,8 +220,11 @@ header {
 }
 
 .section-content {
-    margin: 3em 0.5em 3em;
     box-sizing: border-box;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    padding-top: 3em;
+    padding-bottom: 3em;
 }
 
 .section-about-content {
