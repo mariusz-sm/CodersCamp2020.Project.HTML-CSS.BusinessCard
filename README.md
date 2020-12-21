@@ -12,13 +12,13 @@ W projekcie zostały użyte następujące technologie:
 
 ### Responsive Web Design
 
-Strona dopasowuje się do urządzenia na którym jest wyświetlana, tak aby była ciągle czytelna. Poza tym przy małych rozdzielczościach używany jest pasek nawygacyjny dostosowany do takich urządzeń.
+Strona dopasowuje się do urządzenia na którym jest wyświetlana, tak aby była ciągle czytelna. Poza tym przy małych rozdzielczościach używany jest pasek nawigacyjny dostosowany do takich urządzeń.
 
 - Wygląd strony na PC
 
 ![./.github/images/responsive_web_pc.png](./.github/images/responsive_web_pc.png)
 
-- Wygląd storny na urządzeniu mobilnym
+- Wygląd strony na urządzeniu mobilnym
 
 ![./.github/images/responsive_web_phone.png](./.github/images/responsive_web_phone.png)
 
