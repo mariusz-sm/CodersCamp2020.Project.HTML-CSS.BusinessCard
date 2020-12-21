@@ -25,6 +25,10 @@ W projekcie zostały użyte następujące technologie:
 
 ![./.github/images/form.png](./.github/images/form.png)
 
+### Animacja keyframes
+
+![./.github/images/animation.png](./.github/images/animation.png)
+
 
 
 
