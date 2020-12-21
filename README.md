@@ -42,7 +42,11 @@ Podczas tworzenia strony zostały wykorzystane ikony i czcionki znajdujące się
 - https://fonts.googleapis.com/icon?family=Material+Icons
 
 
+### Sekcje
 
+Do pozycjonowania elementów w sekcjach został użyty flexbox oraz grid. Poza tym zostały dodane efekty hover oraz transform.
+
+![./.github/images/blog.png](./.github/images/blog.png)
 
 
 
