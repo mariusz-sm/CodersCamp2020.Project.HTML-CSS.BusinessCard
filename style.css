@@ -93,9 +93,52 @@ header {
     width: 100%;
 }
 
-.text-effect {
+@keyframes header_animation_1 {
+    0% {color: rgba(255, 255, 255, 0); top:-120px;}
+  25%  {color: rgba(255, 255, 255, 0.2);}
+  50%  {color:rgba(255, 255, 255, 0.4);}
+  75%  {color:rgba(255, 255, 255, 0.8);}
+  100% {color: rgba(255, 255, 255, 1); top:0px;}
+  }
+
+  @keyframes header_animation_2 {
+    0% {color: rgba(255, 255, 255, 0); top:-80px;}
+  25%  {color: rgba(255, 255, 255, 0.2);}
+  50%  {color:rgba(255, 255, 255, 0.4);}
+  75%  {color:rgba(255, 255, 255, 0.8);}
+  100% {color: rgba(255, 255, 255, 1); top:0px;}
+  }
+
+  @keyframes header_animation_3 {
+    0% {color: rgba(255, 255, 255, 0); top:-160px;}
+  25%  {color: rgba(255, 255, 255, 0.2);}
+  50%  {color:rgba(255, 255, 255, 0.4);}
+  75%  {color:rgba(255, 255, 255, 0.8);}
+  100% {color: rgba(255, 255, 255, 1); top:0px;}
+  }
+
+.text-effect:nth-child(2n) {
+    position: relative;
     color: #fff;
     text-shadow: -30px 5px 20px var(--web-background-color), 90px 20px 50px var(--web-background-color);
+    animation-name: header_animation_1;
+    animation-duration: 4s;
+}
+
+.text-effect:nth-child(2n + 1) {
+    position: relative;
+    color: #fff;
+    text-shadow: -30px 5px 20px var(--web-background-color), 90px 20px 50px var(--web-background-color);
+    animation-name: header_animation_2;
+    animation-duration: 3s;
+}
+
+.text-effect:nth-child(3n + 1) {
+    position: relative;
+    color: #fff;
+    text-shadow: -30px 5px 20px var(--web-background-color), 90px 20px 50px var(--web-background-color);
+    animation-name: header_animation_3;
+    animation-duration: 2s;
 }
 
 .icons-wrapper {
